@@ -1,18 +1,20 @@
-## Getting Started
+DesafioControleFluxo
+Este projeto é um exercício de controle de fluxo em Java, onde o sistema recebe dois números inteiros via terminal e realiza uma contagem com base na diferença entre eles.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Funcionalidades
+Recebe dois números inteiros como parâmetros.
 
-## Folder Structure
+Verifica se o segundo número é maior que o primeiro.
 
-The workspace contains two folders by default, where:
+Se o segundo número for maior, calcula a diferença entre eles e imprime uma contagem de 1 até a diferença.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Se o primeiro número for maior, lança uma exceção personalizada (ParametrosInvalidosException).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Estrutura do Projeto
+Contador.java: Classe principal que contém o método main e a lógica de contagem.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+ParametrosInvalidosException.java: Classe de exceção personalizada para tratar parâmetros inválidos.
 
-## Dependency Management
+Requisitos
+Java JDK 8 ou superior.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
